@@ -1,4 +1,4 @@
-mport telebot,os
+import telebot,os
 import re,json
 import requests
 import telebot,time,random
@@ -12,9 +12,9 @@ from faker import Faker
 from multiprocessing import Process
 import threading
 stopuser = {}
-token = '7070301396:AAFnzc7jcuZU7LnnUU-s4RpQ-jrm4Vvcu7U'
+token = '7466186150:AAGmhDV5_oNKGDi_rk86mxkBtFVVWXtNZCQ'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin=6716479911
+admin=6653249747
 f = Faker()
 name = f.name()
 street = f.address()
